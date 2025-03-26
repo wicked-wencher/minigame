@@ -77,7 +77,7 @@ signIn.addEventListener('click',(event)=>{
         showMessage('login is successfull','signInMessage');
         const user=userCredential.user;
         localStorage.setItem('loggedInUserId',user.uid);
-        window.location.href='/gamesweb/index.html';
+        window.location.href='minigame/gamesweb/index.html';
     })
     .catch((error)=>{
         const errorCode=error.code;
