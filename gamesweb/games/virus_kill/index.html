@@ -20,6 +20,7 @@
           <span style="color: red; margin-right: 10px">Kill</span> Virus Game
         </h1>
         <button class="start-btn" onclick="start()" id="start">Start</button>
+        <button class="start-btn" id="showLeaderboardBtn" style="margin-top: 20px;">View Leaderboard</button>
       </div>
       <div class="screen2" id="screen2">
         <div class="scoreboard">
@@ -74,6 +75,11 @@
         <button class="start-btn" onclick="window.location.reload();">
           Play Again
         </button>
+      </div>
+      <div class="screen4" id="screen4">
+        <h1>Leaderboard</h1>
+        <div id="leaderboard" class="leaderboard"></div>
+        <button class="start-btn" id="backToGameBtn">Back to Game</button>
       </div>
     </div>
     <script src="script.js"></script>
