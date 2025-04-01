@@ -221,7 +221,7 @@ function stop(value) {
   
   saveScore();
 }
-//
+
 // Event Listeners
 document.getElementById("showLeaderboardBtn").addEventListener("click", showLeaderboard);
 document.getElementById("backToGameBtn").addEventListener("click", showGameScreen);
