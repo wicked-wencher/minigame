@@ -19,6 +19,7 @@ function printAllGames() {
           <div class="game_star ${status}"><i class="lni lni-star-filled"></i></div>
           <div class="play_button"><a href="${cards[i].link}" target="_blank">Play</a></div>
           <div class="icon_img"><img src="${cards[i].img_url}" alt="" /></div>
+          </div>
         </div>
         `;
   }

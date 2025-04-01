@@ -199,8 +199,8 @@ html {
 /* Card  */
 .card {
     position: relative;
-    width: 320px;
-    height: 160px;
+    width: 400px;
+    height: 300px;
     background-color: var(--white);
     margin: 20px 20px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -223,7 +223,7 @@ html {
 
 .game_star {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     width: 60px;
     height: 60px;
@@ -261,7 +261,7 @@ html {
     height: 80px;
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     width: 220px;
     display: flex;
     align-items: center;
@@ -288,7 +288,7 @@ html {
 
 .icon_img {
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 0;
     width: 120px;
     height: 120px;
@@ -296,6 +296,7 @@ html {
     justify-content: center;
     align-items: center;
 }
+
 
 .icon_img img {
     width: 100px;

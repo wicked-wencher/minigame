@@ -2,7 +2,7 @@ const cards = [
   {
     name: "Bingo <br/> Vs </br> Computer",
     link: "/minigame/gamesweb/games/bingo/index.html",
-    img_url: "images/bingo.png",
+    img_url: "images/bingo.png"
   },
   {
     name: "Memory Game",
@@ -10,7 +10,7 @@ const cards = [
 
     link: href="/minigame/gamesweb/games/memory_game/index.html",
     //link: "/games/memory_game/index.html",
-    img_url: "images/memory.png",
+    img_url: "images/memory.png"
   },
 
   {
@@ -35,6 +35,7 @@ const cards = [
     name: "Kill Virus Game",
     link: "/minigame/gamesweb/games/virus_kill/index.html",
     img_url: "images/virus.png",
+
   },
 
   {
